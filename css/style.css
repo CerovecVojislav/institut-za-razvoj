@@ -61,6 +61,13 @@ body {
 
 /*header section*/
 .hero_area {
+min-height: 800px;
+width: 100%;
+background-image: url("../images/titelbild-skydance.jpg");
+background-position: 0%, 0%, 50%, 50%;
+
+
+
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,8 +77,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../images/hero-bg.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: auto, cover;
+ background-attachment: scroll, fixed;
 }
 
 .sub_page .hero_area {
