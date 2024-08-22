@@ -3,6 +3,7 @@
 @media (max-width: 992px) {
     .hero_area {
         height: auto;
+        
     }
 
     .custom_nav-container .nav_search-btn {
@@ -24,7 +25,10 @@
     .contact_section .form_container {
         padding: 45px 0;
     }
-
+    .hero_area {
+        height: auto;
+        backgroud-attachment: scroll;
+    }
     .info_items {
         flex-direction: column;
         align-items: center;
