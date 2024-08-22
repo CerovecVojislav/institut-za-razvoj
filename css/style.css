@@ -70,7 +70,6 @@ background-position: 0%, 0%, 50%, 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-background-size: cover; /* Safari */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
