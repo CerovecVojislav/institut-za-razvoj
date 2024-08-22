@@ -48,6 +48,9 @@
     }
 }
 
+@media (max-width: 768px){
+     background-attachment: fixed; 
+}
 
 @media (max-width: 576px) {
     .slider_section .detail-box h1 {
